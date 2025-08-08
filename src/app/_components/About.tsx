@@ -18,13 +18,13 @@ import { useInView } from "framer-motion";
 
 const codeLines = [
   "const developer = {",
-  "  name: 'Sheraz Arif',",
-  "  location: 'Lahore',",
-  "  experience: '2+ years',",
+  "  name: 'MUHAMMAD AWAIS',",
+  "  location: 'DAMMAM SAUDIARABIA',",
+  "  experience: '5+ years',",
   "  passion: 'Creating amazing experiences',",
   "  skills: [",
-  "    'React', 'Next.js', 'TypeScript',",
-  "    'Node.js', 'git', 'mongodb'",
+  "    'AutoCAD', 'SolidWorks', 'ANSYS',",
+  "    'GD&T', 'ISO 9001', 'Root Cause Analysis",
   "  ],",
   "  currentStatus: 'Available for hire',",
   "  coffee: '☕'.repeat(Math.floor(Math.random() * 5) + 1)",
@@ -32,20 +32,21 @@ const codeLines = [
 ];
 
 const terminalCommands = [
-  { command: "whoami", output: "Full Stack Developer & Problem Solver" },
+  { command: "whoami", output: "Mechanical QC Engineer & Problem Solver" },
   {
     command: "ls skills/",
-    output: "react/ nextjs/ typescript/ nodejs/ git/ mongodb/",
+    output: "autocad/ solidworks/ gd&t/ iso9001/ ansys/ inspection/",
   },
   {
     command: "cat experience.txt",
-    output: "2+ years building scalable web applications",
+    output: "3+ years ensuring quality and compliance in mechanical systems",
   },
   {
     command: "grep -r 'passion' .",
-    output: "./life: Creating digital experiences that matter",
+    output: "./career: Driving product excellence through precision and process control",
   },
 ];
+
 
 export function AboutSection() {
   const [typedCode, setTypedCode] = React.useState("");
@@ -249,7 +250,7 @@ export function AboutSection() {
                 <div className="flex items-center gap-3">
                   <Terminal className="w-5 h-5 text-green-400" />
                   <span className="text-green-400 text-sm font-mono">
-                    sheraz@portfolio:~$
+                    awais@portfolio:~$
                   </span>
                 </div>
                 <div className="flex gap-2">
@@ -291,7 +292,7 @@ export function AboutSection() {
                       </Link>
                       <Link
                         className="cursor-pointer"
-                        href={"https://www.linkedin.com/in/sherazarifofficial/"}
+                        href={"https://www.linkedin.com/in/muhammad-awais-477b0a177"}
                       >
                         <Button
                           size="sm"
@@ -302,7 +303,7 @@ export function AboutSection() {
                         </Button>
                       </Link>
                       <Link
-                        href={"mailto:sherazarifofficial@gmail.com"}
+                        href={"mailto:awaismuhammad611@gmail.com"}
                         className="cursor-pointer"
                       >
                         <Button

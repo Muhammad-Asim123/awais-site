@@ -84,7 +84,7 @@ export function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ type: "spring", stiffness: 100, damping: 18, delay: 0.2 }}
           >
-            INNOVATIVE
+            MECHINICAL QC
           </motion.span>
           <motion.span
             className="block bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent animate-gradient "
@@ -103,7 +103,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ type: "spring", stiffness: 100, damping: 18, delay: 0.5 }}
         >
-          I build immersive web experiences with a focus on clean design and robust performance
+          I ensure mechanical systems meet the highest quality standards through precise inspection, process control, and continuous improvement
         </motion.p>
 
         {/* Description */}
@@ -113,7 +113,7 @@ export function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ type: "spring", stiffness: 100, damping: 18, delay: 0.6 }}
         >
-          Expert in <span className="font-bold">React</span>, <span className="font-bold">Next.js</span>, and modern frameworks to transform your vision into fast, fluid, and responsive digital products.
+          Expert in <span className="font-bold">mechanical</span>, <span className="font-bold">design </span>,and systems engineering, transforming ideas into high-performance, reliable, and precision-driven solutions
         </motion.p>
 
         {/* CTA Buttons */}
@@ -154,7 +154,7 @@ export function HeroSection() {
               className="cursor-pointer border-white/20 text-white hover:bg-white hover:text-black px-8 py-6 text-lg font-semibold rounded-full backdrop-blur-sm transition-all duration-300 transform hover:scale-105 bg-transparent"
             >
               <Download className="w-5 h-5 mr-2" />
-              <Link href="/Sheraz Arif.pdf" download>
+              <Link href="/awis.pdf" download>
                 Download CV
               </Link>
             </Button>

@@ -40,7 +40,7 @@ export function ContactSection() {
             from_name: formData.name,
             from_email: formData.email,
             message: formData.message,
-            to_email: "sherazarifofficial@gmail.com",
+            to_email: "awaismuhammad611@gmail.com",
           },
         }),
       });
@@ -237,7 +237,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Email</p>
-                  <Link  href={"mailto:sherazarifofficial@gmail.,com"} className="cursor-pointer text-gray-400">sherazarifofficial@gmail.com</Link>
+                  <Link  href={"mailto:sherazarifofficial@gmail.,com"} className="cursor-pointer text-gray-400">awaismuhammad611@gmail.com</Link>
                 </div>
               </motion.div>
               <motion.div
@@ -250,7 +250,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Phone</p>
-                  <p className="text-gray-400">+923095533003</p>
+                  <p className="text-gray-400">+966552936602</p>
                 </div>
               </motion.div>
               <motion.div
@@ -263,7 +263,7 @@ export function ContactSection() {
                 </div>
                 <div>
                   <p className="text-white font-semibold">Location</p>
-                  <p className="text-gray-400">Lahore, Pakistan</p>
+                  <p className="text-gray-400">DAMMAM SAUDIARABIA</p>
                 </div>
               </motion.div>
             </motion.div>

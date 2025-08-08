@@ -66,8 +66,7 @@ export function Footer() {
                 </span>
               </h3>
               <p className="text-gray-300 leading-relaxed max-w-md">
-                Full-stack developer passionate about creating exceptional digital experiences with modern technologies.
-                Let's build something amazing together.
+                Dedicated Mechanical QC Engineer focused on quality, reliability, and continuous improvement. Let’s create engineering that performs..
               </p>
             </div>
 
@@ -75,15 +74,15 @@ export function Footer() {
             <motion.div className="space-y-3" variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0 } }} transition={{ type: "spring", stiffness: 100, damping: 18 }}>
               <div className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-4 h-4 text-blue-400" />
-                <Link href={"mailto:sherazarifofficial@gmail.,com"} className="hover:underline focus:underline outline-none">sherazarifofficial@gmail.com</Link>
+                <Link href={"mailto:sherazarifofficial@gmail.,com"} className="hover:underline focus:underline outline-none">awaismuhammad611@gmail.com</Link>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-4 h-4 text-green-400" />
-                <span>+923095533003</span>
+                <span>+966552936602</span>
               </div>
               <div className="flex items-center gap-3 text-gray-400">
                 <MapPin className="w-4 h-4 text-purple-400" />
-                <span>Lahore, Pkistan</span>
+                <span>DAMMAM SAUDIARABIA</span>
               </div>
             </motion.div>
           </motion.div>
@@ -114,7 +113,7 @@ export function Footer() {
           <motion.div variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0 } }} transition={{ type: "spring", stiffness: 100, damping: 18 }}>
             <h4 className="text-lg font-semibold text-white mb-6">Services</h4>
             <motion.div className="space-y-3" variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0 } }} transition={{ type: "spring", stiffness: 100, damping: 18 }}>
-              {["Web Development", "Mobile Apps", "UI/UX Design", "API Development", "Consulting"].map((service) => (
+              {["Welding inspection", "Coating inspection", "Hydrotest inspection and witness", "Pipeline inspection", "Consulting"].map((service) => (
                 <div key={service} className="text-gray-400">
                   {service}
                 </div>
@@ -131,8 +130,8 @@ export function Footer() {
               <motion.div className="flex gap-4" variants={{ hidden: { opacity: 0, y: 24 }, visible: { opacity: 1, y: 0 } }} transition={{ type: "spring", stiffness: 100, damping: 18 }}>
                 {[
                   { icon: Github, href:"https://github.com/SherazArif172/", label: "GitHub", color: "hover:bg-gray-600" },
-                  { icon: Linkedin, href:"https://www.linkedin.com/in/sherazarifofficial/", label: "LinkedIn", color: "hover:bg-blue-600" },
-                  { icon: Mail, href:"mailto:sherazarifofficial@gmail.com", label: "Email", color: "hover:bg-red-500" },
+                  { icon: Linkedin, href:"https://www.linkedin.com/in/muhammad-awais-477b0a177", label: "LinkedIn", color: "hover:bg-blue-600" },
+                  { icon: Mail, href:"mailto:awaismuhammad611@gmail.com", label: "Email", color: "hover:bg-red-500" },
                 ].map((social) => {
                   const Icon = social.icon
                   return (

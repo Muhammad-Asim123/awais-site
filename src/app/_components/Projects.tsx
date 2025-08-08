@@ -84,18 +84,18 @@ const projects = [
 
 const categories = [
   { id: "all", name: "All Projects", icon: Globe, count: projects.length },
-  {
-    id: "fullstack",
-    name: "Full Stack",
-    icon: Code,
-    count: projects.filter((p) => p.category === "fullstack").length,
-  },
-  {
-    id: "saas",
-    name: "SaaS",
-    icon: Star,
-    count: projects.filter((p) => p.category === "saas").length,
-  },
+  // {
+  //   id: "fullstack",
+  //   name: "Mechanical QC",
+  //   icon: Code,
+  //   count: projects.filter((p) => p.category === "fullstack").length,
+  // },
+  // {
+  //   id: "saas",
+  //   name: "Technical Documentation",
+  //   icon: Star,
+  //   count: projects.filter((p) => p.category === "saas").length,
+  // },
 ];
 
 export function ProjectsSection() {
@@ -187,8 +187,7 @@ export function ProjectsSection() {
             <span className="text-white font-mono">{"/>"}</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A collection of projects that showcase my skills in full-stack
-            development, AI integration, and modern web technologies.
+            A collection of projects that showcase my skills in mechanical inspection, quality control, and adherence to international engineering standards.
           </p>
         </div>
 

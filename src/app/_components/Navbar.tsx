@@ -17,8 +17,8 @@ const navItems = [
 
 const socialLinks = [
   { name: "GitHub", href: "https://github.com/SherazArif172/", icon: Github },
-  { name: "LinkedIn", href: "https://www.linkedin.com/in/sherazarifofficial/", icon: Linkedin },
-  { name: "Email", href: "mailto:sherazarifofficial@gmail.com", icon: Mail },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/muhammad-awais-477b0a177", icon: Linkedin },
+  { name: "Email", href: "mailto:awaismuhammad611@gmail.com", icon: Mail },
 ]
 
 export function PortfolioNavbar() {
@@ -68,7 +68,7 @@ export function PortfolioNavbar() {
             href="#home"
             className="text-white font-bold text-2xl tracking-tight hover:text-gray-300 transition-colors duration-200"
           >
-            SHERAZ
+            AWAIS
           </Link>
 
           {/* Desktop Navigation */}

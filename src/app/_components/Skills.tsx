@@ -15,12 +15,38 @@ const skillCategories = [
     icon: Globe,
     color: "from-blue-500 to-cyan-500",
     skills: [
-      { name: "React", experience: "2+ years", code: "const App = () => <div>Hello World</div>" },
-      { name: "Next.js", experience: "2+ years", code: "export default function Page() {}" },
-      { name: "TypeScript", experience: "1+ years", code: "interface User { name: string }" },
-      { name: "Tailwind CSS", experience: "2+ years", code: "className='bg-blue-500 text-white'" },
-      { name: "SASS/SCSS", experience: "2+ years", code: "$primary-color: #3498db;" },
-    ],
+  { 
+    name: "AutoCAD", 
+    experience: "2+ years", 
+    code: "// Example usage\nDimensioning mechanical parts with precision tolerances" 
+  },
+  { 
+    name: "SolidWorks", 
+    experience: "2+ years", 
+    code: "// Example usage\nAssembly modeling and technical drawings for fabrication" 
+  },
+  { 
+    name: "GD&T", 
+    experience: "1+ years", 
+    code: "// Example usage\nØ10.00 ±0.05 MMC Ⓜ Ⓣ" 
+  },
+  { 
+    name: "ISO 9001", 
+    experience: "2+ years", 
+    code: "// Example usage\nInternal audit reports for QMS compliance" 
+  },
+  { 
+    name: "ANSYS", 
+    experience: "1+ years", 
+    code: "// Example usage\nStress analysis on pressure vessel components" 
+  },
+  { 
+    name: "Root Cause Analysis", 
+    experience: "2+ years", 
+    code: "// Example usage\n5 Whys: Why did the defect occur?..." 
+  }
+]
+
   },
   {
     id: "backend",
